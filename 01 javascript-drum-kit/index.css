@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Courier Prime", monospace;
-  background-image: url("./media/background.jpg");
+  background-image: url("./media/background.jfif");
   background-size: cover;
 }
 .container {
@@ -20,7 +20,7 @@ body {
 .key {
   margin: 0;
   padding: 0;
-  border: 3.5px solid black;
+  border: 3px solid black;
   border-radius: 4px;
   width: 8%;
   margin: 10px;
@@ -28,7 +28,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
   padding: 8px;
+  transition: all 0.07s;
 }
 
 h1 {
@@ -39,7 +41,13 @@ h1 {
 }
 
 span {
-  color: rgb(204, 204, 36);
+  color: #ffc600;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
 }
