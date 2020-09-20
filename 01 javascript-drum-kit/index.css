@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier Prime", monospace;
+  background-image: url("./media/background.jpg");
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+
+.keys {
+  display: flex;
+  width: 70%;
+}
+
+.key {
+  margin: 0;
+  padding: 0;
+  border: 3.5px solid black;
+  border-radius: 4px;
+  width: 8%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+  color: rgb(236, 230, 230);
+}
+
+span {
+  color: rgb(204, 204, 36);
+  font-size: 14px;
+  text-transform: uppercase;
+}
