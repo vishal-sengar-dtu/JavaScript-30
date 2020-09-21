@@ -1,0 +1,7 @@
+1. data-key attribute
+
+2. add.eventListner("transitionend", function);
+
+3. transition:  property  duration  speed  delay;
+
+ 
