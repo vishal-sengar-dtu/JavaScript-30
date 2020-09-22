@@ -1,0 +1,39 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background: #193549;
+  font-weight: 100;
+  font-size: 30px;
+  box-sizing: border-box;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.h1 {
+  color: var(--base);
+}
+
+.controls {
+  margin-bottom: 40px;
+}
+
+input {
+  width: 100px;
+}
